@@ -70,6 +70,7 @@ img {
 }
 
 form {
+  margin: 0 auto;
   width: 70%;
   background: #fafafa;
   padding: 20px;
