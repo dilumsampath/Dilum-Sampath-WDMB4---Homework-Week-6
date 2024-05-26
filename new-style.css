@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -35,6 +38,10 @@ header {
   color: white;
 }
 
+.author:hover {
+  color: red;
+}
+
 main {
   max-width: 800px;
   margin: 20px auto;
@@ -46,6 +53,10 @@ main {
 
 section {
   margin-bottom: 20px;
+}
+
+.special {
+  color: red;
 }
 
 section h2,
@@ -67,6 +78,11 @@ img {
   margin: 0 auto;
   border-radius: 8px;
   /* margin: 10px 0; */
+}
+
+img:hover {
+  transform: scale(1.2);
+  /* transition: transform 0s ease-in-out; */
 }
 
 form {
