@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  color: #0056b3;
+}
+h3 {
+  color: #003366;
+}
+p {
+  margin-bottom: 1rem;
+}
+img {
+  display: block;
+  margin: 1rem 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Form Styles */
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form h2 {
+  margin-top: 0;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+input[type="submit"] {
+  background: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+input[type="submit"]:hover {
+  background: #003366;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+th,
+td {
+  border: 2px solid #333;
+  padding: 0.5rem;
+  text-align: left;
+}
+th {
+  background: #0056b3;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+/* Footer Styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
