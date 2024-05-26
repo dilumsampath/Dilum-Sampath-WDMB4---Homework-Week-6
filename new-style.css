@@ -7,15 +7,32 @@ body {
 }
 
 header {
-  background-color: #4caf50;
+  background-color: #0612f3;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
-header h1 {
+/* header h1 {
   margin: 0;
   font-size: 2.5em;
+} */
+
+/* ==================================    Select using ID     ======================================= */
+#main-heading {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+
+/* ==================================    Select using class     ======================================= */
+.author {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
 }
 
 main {
@@ -34,7 +51,7 @@ section {
 section h2,
 section h3 {
   text-align: center;
-  color: #4caf50;
+  color: #0612f3;
 }
 
 p {
@@ -63,7 +80,7 @@ form {
 
 form h2 {
   text-align: center;
-  color: #4caf50;
+  color: #0612f3;
 }
 
 label {
@@ -93,7 +110,7 @@ input[type="radio"] {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #0612f3;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -102,7 +119,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #0612f3;
 }
 
 table {
@@ -128,7 +145,10 @@ tr:nth-child(even) {
 }
 
 footer {
-  background-color: #4caf50;
+  display: flex;
+
+  justify-content: center;
+  background-color: #0612f3;
   color: white;
   padding: 10px;
   text-align: center;
